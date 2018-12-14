@@ -1,0 +1,40 @@
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px repeat(11, 8.33%);
+    grid-gap:10px;
+    grid-template-areas:
+            'sideNav accord1 accord1 accord1 mTable mTable mTable mTable mCard mCard mCard .'
+            'sideNav accord1 accord1 accord1 mTable mTable mTable mTable mCard mCard mCard .'
+            'sideNav . . . . . . . . . . .'
+            'sideNav . . . . . . . . . . .'
+;
+}
+
+
+#accordion1{
+    grid-area:accord1;
+}
+
+#mainCard{
+    grid-area: mCard;
+    justify-self: stretch;
+    max-height: fit-content;
+}
+
+#mainTable{
+    grid-area: mTable;
+    justify-self: stretch;
+    text-align: center;
+    margin: 0px!important;
+
+}
+
+#sidNav{
+    grid-area: sideNav;
+}
+
+
+
+C

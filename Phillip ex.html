@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Responsive page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <!-- Referenced local CSS -->
+    <link rel="stylesheet" href="phillip.css">
+    <!-- Referenced local CSS -->
+    <link rel="stylesheet" href="phillipcustom.css">
+    <!-- Latest compiled and minified UX style guide HTML CSS -->
+    <link rel="stylesheet" href="https://pages.github.homedepot.com/ux/ux-styleguide/dist/ux-styleguide.min.css" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript UX style Guide -->
+    <script src="https://pages.github.homedepot.com/ux/ux-styleguide/dist/ux-styleguide.min.js" crossorigin="anonymous"></script>
+    <!-- Linking local Javascript file - have to put at end so loads whole page and then runs it - add defer and it waits-->
+    <script defer src= "javaPhillip.js"></script>
+
+
+
+    <title>Style Guide Play</title>
+
+</head>
+<body>
+
+<header class="header">
+    <section class="header-logo">
+        <i class="icon_homedepot"></i>
+    </section>
+    <section class="header-info">
+        <label class="product-info">Product Name</label>
+        <label class="user-info">User Name | Store #0000 | Atlanta, GA</label>
+    </section>
+    <section class="header-search">
+        <input type="search" placeholder="Search Here"/>
+        <i class="icon_search"></i>
+    </section>
+    <section class="header-actions">
+        <div class=""><i class="icon_bell"></i>Active Link</div>
+        <div><i class="icon_cart"></i>Nav link</div>
+    </section>
+</header>
+
+
+
+
+<div class="content grid-container">
+    <div class="navigation-wrapper" id="sidNav">
+        <div class="sidenav scrollable">
+            <div class="sidenav-info">
+                <div class="header-logo">
+                    <i class="icon_homedepot"></i>
+                </div>
+                <label class="sidenav-user">Firstname Lastname</label>
+                <label class="sidenav-location">Store Location | Department</label>
+                <a class="fab" href="#">Store<span>0000</span></a>
+            </div>
+            <ul class="nav">
+                <li><a href="#" class="active"><i class="icon_nav_dashboard"></i>Hatred</a></li>
+                <li><a href="#"><i class="icon_nav_esvs"></i>Love</a></li>
+                <li><a href="#"><i class="icon_nav_quote_center"></i>Anger</a></li>
+                <li><a href="#"><i class="icon_nav_proxtra"></i>Happiness</a></li>
+                <li><a href="#"><i class="icon_nav_hd_online"></i>Sadness</a></li>
+                <li><a href="#"><i class="icon_nav_spos"></i>Envy</a></li>
+                <li><a href="#"><i class="icon_nav_appliance_ordering"></i>Greed</a></li>
+            </ul>
+        </div>
+        <section class="content-area">
+        </section>
+    </div>
+    <div class="accordion" role="tablist" id="accordion1">
+        <h3 id="heading1" class="accordion-heading" role="tab" aria-controls="panel1" aria-selected="true" tabindex="0">Accordion Heading 1</h3>
+        <div id="panel1" class="accordion-panel" role="tabpanel" aria-labelledby="heading1" aria-expanded="true">
+            <h4>Accordion Content 1</h4>
+        </div>
+        <h3 id="heading2" class="accordion-heading" role="tab" aria-controls="panel2" aria-selected="false" tabindex="-1">Accordion Heading 2</h3>
+        <div id="panel2" class="accordion-panel" role="tabpanel" aria-labelledby="heading2" aria-expanded="false">
+            <h4>Accordion Content 2</h4>
+        </div>
+        <h3 id="heading3" class="accordion-heading" role="tab" aria-controls="panel3" aria-selected="false" tabindex="-1">Accordion Heading 3</h3>
+        <div id="panel3" class="accordion-panel" role="tabpanel" aria-labelledby="heading3" aria-expanded="false">
+            <h4>Accordion Content 3</h4>
+        </div>
+        <h3 id="heading4" class="accordion-heading" role="tab" aria-controls="panel4" aria-selected="false" tabindex="-1">Accordion Heading 4</h3>
+        <div id="panel4" class="accordion-panel" role="tabpanel" aria-labelledby="heading4" aria-expanded="false">
+            <h4>Accordion Content 4</h4>
+        </div>
+    </div>
+
+    <div class="card" id="mainCard">
+        <div class="card-toolbar">
+            <span class="card-title"><h2>Card Title</h2></span>
+            <i class="icon_close"></i>
+        </div>
+        <div class="card-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam.
+        </div>
+        <div class="card-actions right">
+            <a class="button">Save</a>
+            <a class="button primary">Continue</a>
+        </div>
+    </div>
+
+    <table class="standard-table vertical-lines" id="mainTable">
+        <thead>
+        <tr>
+            <th>
+                <span>Column 1</span>
+            </th>
+            <th>
+                <span>Column 2</span>
+            </th>
+            <th>
+                <span>Column 3</span>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Row1:Data1</td>
+            <td>Row1:Data2</td>
+            <td>Row1:Data3</td>
+        </tr>
+        <tr>
+            <td>Row2:Data1</td>
+            <td>Row2:Data2</td>
+            <td>Row2:Data3</td>
+        </tr>
+        <tr>
+            <td>Row3:Data1</td>
+            <td>Row3:Data2</td>
+            <td>Row3:Data3</td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+
+
+
+</body>
+
+</html>
